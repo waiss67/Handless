@@ -1,0 +1,158 @@
+body {
+    background-color: #0B243B;
+}
+
+.cadre {
+    border-radius: 8px;
+    background-color: #2E2E2E;
+}
+
+/*indicateur*/
+.btn{
+    margin-top: 10px;
+    width: 12px;
+    height: 12px;
+    border-radius: 12px;
+}
+#btn {
+    margin-left: 10px;
+}
+.btnGrey {
+    background: grey;
+}
+.btnGreen {
+    background: mediumseagreen;
+}
+.btnRed {
+    background: OrangeRed;
+}
+.btnYellow {
+    background: gold;
+}
+
+.modeSelect {
+    background-color: white;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 8px;
+    opacity: 0.5;
+}
+.modeActive {
+    background-color: black;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 8px;
+    color: white;
+    opacity: 0.5;
+}
+
+/*organisation des box*/
+.aline {
+    display: flex;
+    opacity: 0.8;
+}
+.colon{
+    padding: 15px;
+    border-radius: 8px;
+    padding-top: 10px;
+    margin: 10px;
+    text-align: center;
+}
+.colon1 {
+    width: 100%;
+}
+.colon2 {
+    width: 100%;
+}
+.colon3 {
+    width: 100%;
+}
+.head1 {
+    background-color: #FF5733;
+}
+.head2 {
+    background-color: #5858FA;
+}
+.head3 {
+    background-color: #3ADF00;
+}
+.area{
+    padding: 15px;
+    border-radius: 8px;
+    padding-top: 10px;
+    margin: 10px;
+}
+.area1 {
+    background-color: #2A0A0A;
+}
+.area2 {
+    background-color: #0A0A2A;
+}
+.area3 {
+    background-color: #122A0A;
+}
+
+/*command*/
+#cmd {
+    margin: 5px;
+    width: 100%;
+    text-align: center;
+    background-color: white;
+    padding: 15px;
+    border-radius: 8px;
+    opacity: 0.5;
+    margin-left: 10px;
+}
+.cmd {
+    text-align: center;
+    background-color: white;
+    padding: 5px;
+    border-radius: 8px;
+    opacity: 0.5;
+    height: 30px;
+}
+.saveCmd {
+    background-color: white;
+    padding: 5px;
+    border-radius: 8px;
+    opacity: 0.5;
+}
+.dirActive {
+    background-color: black;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 8px;
+    color: white;
+    opacity: 0.5;
+    text-align: center;
+}
+.dirSelect {
+    background-color: white;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 8px;
+    opacity: 0.5;
+    color: #0A0A2A;
+    text-align: center;
+}
+.footer {
+    text-align: center;
+}
+#iframe {
+    width: 70%;
+    padding: 10px;
+}
+#surf {
+    width: 40%;
+    padding: 10px;
+}
+.iframe {
+    background: white;
+    width: 100%;
+    height: 50em;
+}
+.surf {
+    background: white;
+    width: 100%;
+    height: 50em;
+}
