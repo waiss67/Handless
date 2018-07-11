@@ -15,6 +15,10 @@
 ### npm 6.1.0
 It will be install with nodejs
 
+### Vue material
+```
+	npm install vue-material
+```
 
 ## Run the project
 ```
