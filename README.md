@@ -27,6 +27,10 @@ It will be install with nodejs
 
 ```
 
+### vue-codemirror
+```
+	vue-codemirror
+```
 
 ## Run the project
 ```

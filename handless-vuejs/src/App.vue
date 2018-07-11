@@ -1,16 +1,18 @@
 <template>
   <div id="app">
     <div>BAKA</div>
-    <img src="./assets/logo.png">
-       <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <mycodemirror></mycodemirror>
+
   </div>
 </template>
 
 <script>
+//    <img src="./assets/logo.png">
+//       <HelloWorld msg="Welcome to Your Vue.js App"/>
  import HelloWorld from './components/HelloWorld.vue'
 //    <handless></handless>
 
-//import handless from './handlessMain/codemirrorComponent.vue'
+import mycodemirror from './handlessMain/codemirrorComponent.vue'
 
 export default {
   name: 'app',
@@ -20,8 +22,8 @@ export default {
     };
   },
   components: {
-     HelloWorld
-    //handless
+     HelloWorld,
+     mycodemirror
   },
   props: [],
   methods: {
