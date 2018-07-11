@@ -14,3 +14,12 @@
 ```
 ### npm 6.1.0
 It will be install with nodejs
+
+
+## Run the project
+```
+	cd Handless
+
+	npm run serve
+```
+
