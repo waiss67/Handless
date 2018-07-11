@@ -1,5 +1,6 @@
 <template>
   <div id="app">
+    <div>BAKA</div>
     <img src="./assets/logo.png">
        <HelloWorld msg="Welcome to Your Vue.js App"/>
   </div>
@@ -19,8 +20,8 @@ export default {
     };
   },
   components: {
-    // HelloWorld
-    handless
+     HelloWorld
+    //handless
   },
   props: [],
   methods: {
