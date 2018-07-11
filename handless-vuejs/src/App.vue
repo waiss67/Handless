@@ -1,12 +1,14 @@
 <template>
   <div id="app">
-    <img src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <handless></handless>
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+// import HelloWorld from './components/HelloWorld.vue'
+//    <img src="./assets/logo.png">
+      // <HelloWorld msg="Welcome to Your Vue.js App"/>
+import handless from './handlessMain/codemirrorComponent.vue'
 
 export default {
   name: 'app',
@@ -16,10 +18,14 @@ export default {
     };
   },
   components: {
-    HelloWorld
+    // HelloWorld
+    handless
   },
   props: [],
-  methods: {},
+  methods: {
+    save: function () {
+    }
+  },
   mounted() {}
   
 }
