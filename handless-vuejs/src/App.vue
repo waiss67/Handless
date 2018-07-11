@@ -1,14 +1,15 @@
 <template>
   <div id="app">
-    <handless></handless>
+    <img src="./assets/logo.png">
+       <HelloWorld msg="Welcome to Your Vue.js App"/>
   </div>
 </template>
 
 <script>
-// import HelloWorld from './components/HelloWorld.vue'
-//    <img src="./assets/logo.png">
-      // <HelloWorld msg="Welcome to Your Vue.js App"/>
-import handless from './handlessMain/codemirrorComponent.vue'
+ import HelloWorld from './components/HelloWorld.vue'
+//    <handless></handless>
+
+//import handless from './handlessMain/codemirrorComponent.vue'
 
 export default {
   name: 'app',

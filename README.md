@@ -18,7 +18,15 @@ It will be install with nodejs
 ### Vue material
 ```
 	npm install vue-material --save
+
 ```
+### sass-loader
+```
+	npm install node-sass -- save
+	npm install sass-loader --save
+
+```
+
 
 ## Run the project
 ```
