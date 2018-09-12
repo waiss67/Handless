@@ -1,11 +1,4 @@
-<?php
-/**
- * Created by PhpStorm.
- * User: T3i
- * Date: 07/07/2018
- * Time: 14:53
- */
-?>
+
 <script>
     function js (act) {
         if (act === 'down') {
